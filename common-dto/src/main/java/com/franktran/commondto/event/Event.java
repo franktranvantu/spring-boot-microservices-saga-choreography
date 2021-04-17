@@ -8,7 +8,7 @@ import java.util.UUID;
 @Data
 public abstract class Event {
 
-  private final UUID orderId = UUID.randomUUID();
-  private final LocalDateTime date = LocalDateTime.now();
+  protected final UUID eventId = UUID.randomUUID();
+  protected final LocalDateTime date = LocalDateTime.now();
 
 }

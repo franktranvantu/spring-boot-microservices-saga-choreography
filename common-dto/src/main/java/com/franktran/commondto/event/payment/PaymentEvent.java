@@ -8,5 +8,6 @@ import lombok.Data;
 public class PaymentEvent extends Event {
 
   private PaymentDto payment;
+  private PaymentStatus status;
 
 }

@@ -10,5 +10,6 @@ import lombok.Data;
 public class OrderEvent extends Event {
 
   private OrderDto order;
+  private OrderStatus status;
 
 }

@@ -1,6 +1,8 @@
-package com.franktran.orderservice;
+package com.franktran.orderservice.resource;
 
 import com.franktran.commondto.dto.OrderRequestDto;
+import com.franktran.orderservice.service.OrderCommandService;
+import com.franktran.orderservice.entity.PurchaseOrder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;

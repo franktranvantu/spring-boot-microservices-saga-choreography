@@ -1,4 +1,4 @@
-package com.franktran.commondto.dto;
+package com.franktran.commondto.event.order;
 
 public enum OrderStatus {
 

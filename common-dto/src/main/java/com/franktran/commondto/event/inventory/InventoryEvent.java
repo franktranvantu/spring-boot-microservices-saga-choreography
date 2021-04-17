@@ -8,5 +8,6 @@ import lombok.Data;
 public class InventoryEvent extends Event {
 
   private InventoryDto inventory;
+  private InventoryStatus status;
 
 }
